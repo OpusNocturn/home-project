@@ -36,6 +36,7 @@ top: 170px;
 
 /* Style the list inside the menu */
 nav ul {
+	right: 1000px;
     list-style-type: none;
     padding: 0;
 }
@@ -49,7 +50,7 @@ article {
 }
 
 /* Clear floats after the columns */
-section:after {
+section: after {
     content: "";
     display: table;
     clear: both;
